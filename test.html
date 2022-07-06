@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CKEditor 5 - Classic editor</title>
+    <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
+</head>
+<body>
+    <h1>Classic editor</h1>
+    <form action="[URL]" method="post">
+        <textarea name="content" id="editor">
+            &lt;p&gt;This is some sample content.&lt;/p&gt;
+        </textarea>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+
+
+
+
+<a href="post-one.html"> <button class="btn btn-secondary"> <b class="bi bi-chevron-double-right">Detail</b></button> 
+</body>
+</html>
+
+
+
+
+    <!-- Button trigger modal -->
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <a class="btn" href="index.html" role="button"><i class="fa-solid fa-arrow-left"></i> Back To Dashboard</a>
+      </div>
